@@ -15,21 +15,21 @@ class BangunDatar {
 class PersegiPanjang: public BangunDatar { 
     public: 
     int getValue() {
-        return (lebar * tinggi); 
+        return lebar * tinggi; 
     } 
 }; 
 
 class Segitiga: public BangunDatar { 
     public: 
     int getValue() { 
-        return (lebar * tinggi / 2); 
+        return lebar * tinggi / 2; 
     } 
 };
 
 class Persegi: public BangunDatar { 
     public: 
     int getValue() { 
-        return (lebar * tinggi); 
+        return lebar * tinggi; 
     } 
 };
 
