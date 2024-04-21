@@ -9,13 +9,13 @@ class Mahasiswa {
 		vector <string> nama;
 
 	public:
-		void setNama(string a, int index) {
+		void setNama(string a) {
 			nama.push_back(a);
 		}	
-		void setUsia(int b, int index) {
+		void setUsia(int b) {
 			usia.push_back(b);
 		}
-		void setIPK(float c, int index) {
+		void setIPK(float c) {
 			ipk.push_back(c);
 		}
 		string getNama(int index) {
@@ -46,9 +46,9 @@ int main() {
 		cout << "usia : "; cin >> usia;
 		cout << "ipk : "; cin >> ipk;
 		cout << endl;
-		ms.setNama(nama, i);
-		ms.setUsia(usia, i);
-		ms.setIPK(ipk, i);
+		ms.setNama(nama);
+		ms.setUsia(usia);
+		ms.setIPK(ipk);
 	}
 	
 	
