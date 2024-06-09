@@ -29,10 +29,9 @@ void printAdjacencyList(vector<Edge> adj[], int V) {
 }
 
 int main() {
-    int V = 5; // Jumlah simpul/graf
+    int V = 5;
     vector<Edge> adj[V];
 
-    // Menambahkan edge
     addEdge(adj, 0, 1, 10);
     addEdge(adj, 0, 4, 20);
     addEdge(adj, 1, 2, 30);
@@ -41,7 +40,6 @@ int main() {
     addEdge(adj, 2, 3, 60);
     addEdge(adj, 3, 4, 70);
 
-    // Mencetak daftar ketetanggaan
     printAdjacencyList(adj, V);
 
     return 0;
